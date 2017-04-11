@@ -24,7 +24,7 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
 
 # CHALLENGE - ...and train them on our data
 
-# 3 steps for each clasifier -train, predict and check accuracy
+# 3 steps for each classifier -train, predict and check accuracy
 
 clf = clf.fit(X, Y)
 tree_pred = clf.predict(X)
